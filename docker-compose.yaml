@@ -1,0 +1,12 @@
+version: "3.5"
+services:
+  vu-service:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "9095:9095"
+    deploy:
+      mode: replicated
+      replicas: 1
