@@ -22,7 +22,10 @@
 
 - Once the request is successfully completed, you would have access to the video URL, the video preview and the video Thumbnail
 - Note that the video preview would take a while (1-3 minutes) to be active because of underlying complexities with the Cloudinary Preview AI model.
-- An example of the result data is <br/> ```{
+- An example of the result data is <br/> 
+
+```
+{
   "message": "SUCCESS",
   "status": 200,
   "time": "2023-03-08T15:13:33Z",
@@ -32,4 +35,4 @@
   "video_preview_url": "https://res.cloudinary.com/dfifbma3s/video/upload/e_preview/v1678288413/sellmbktkvbrduvhjn9w",
   "video_thumbnail_url": "https://res.cloudinary.com/dfifbma3s/video/upload/e_preview/v1678288413/sellmbktkvbrduvhjn9w.jpg"
   }
-  }```
+  ```
